@@ -1,0 +1,242 @@
+body{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.bg-primary{
+    background:#2C3E50 !important;
+}
+.bg-green{
+background: #18bc9c !important;
+
+}
+.text-green{
+color: #18bc9c !important;
+
+}
+.text-bold{
+  font-weight: bold ;
+}
+
+
+.bg-black{
+  color: #2c3e50 !important;
+}
+.text-secondary {
+    color: #2c3e50 !important;
+}
+.text-danger{
+  color: red ;
+}
+.d-block{
+  display: block;
+}
+.position-absolute{
+  position: absolute;
+}
+.position-fixed{
+  position: fixed;
+}
+.position-relative{
+  position: relative;
+}
+#mainNav{
+  padding-top: 1rem ;
+  padding-bottom: 1rem ;
+  font-weight: 700 ;
+  font-family: lato ;
+
+}
+#mainNav .navbar-brand{
+  color: #fff ;
+
+}
+#mainNav .navbar-toggler{
+  font-size: 80% ;
+  padding: .8rem ;
+}
+#navbarResponsive ul li a{
+    color: #fff ;
+}
+#navbarResponsive ul li a:hover{
+    color: #18BC9C ;
+}
+#navbarResponsive ul li:active{
+    color: #18BC9C ;
+}
+header.masthead {
+    padding-top: calc(6rem + 72px);
+    padding-bottom: 6rem;
+}
+header.masthead h2{
+  font-size: 1.3rem ;
+
+
+}
+hr.star-light {
+    border-color: #fff;
+}
+hr.star-dark, hr.star-light {
+    max-width: 15rem;
+    padding: 0;
+    text-align: center;
+    border: none;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: medium;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+    border-top: solid .25rem;
+        border-top-color: #2C3E50;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #fff;
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+                                          /** Start section CSS */
+section{
+    padding: 6rem 0 ;
+
+}
+.portfolio .portfolio-item{
+      position: relative;
+      display: block;
+      max-width: 25rem ;
+      margin-bottom: 15px ;
+
+}
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+    opacity: 1;
+}
+.portfolio .portfolio-item .portfolio-item-caption {
+    -webkit-transition: all ease .5s;
+    transition: all ease .5s;
+    opacity: 0;
+    background-color: rgba(24,188,156,.9);
+}
+
+.fa, .fas {
+    font-weight: 900;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+.fa-3x {
+    font-size: 3em;
+}
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.fa-search-plus::before {
+    content: "\f00e";
+}
+.btn{
+  border-width: 2px;
+}
+.btn-xl{
+    padding: 1rem 1.75rem ;
+    font-size: 1.25rem ;
+}
+
+.fa-download::before {
+    content: "\f019";
+}
+.floating-label-form-group{
+  position: relative;
+  border-bottom: 1px solid #e9ecef ;
+}
+.floating-label-form-group label{
+      font-size: .85rem ;
+      line-height: 1.76rem ;
+      position: relative;
+      z-index: 0 ;
+      top: 3em ;
+      display: block;
+      margin: 0 ;
+      -webkit-ransition: top .3s ease,opacity .3s ease;
+      transition: top .3s ease,opacity .3s ease;
+      vertical-align: middle;
+      vertical-align: baseline;
+      opacity: 0;
+
+
+}
+.floating-label-form-group input, .floating-label-form-group textarea {
+    font-size: 1.5em;
+    position: relative;
+    z-index: 1;
+    padding-right: 0;
+    padding-left: 0;
+    resize: none;
+    border: none;
+    border-radius: 0;
+    background: 0 0;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+        padding-right: 0.75rem;
+        padding-left: 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+.floating-label-form-group-with-value label {
+    top: 0;
+    opacity: 1;
+}
+                                              /* FOOTER */
+
+.footer{
+    padding-top: 5rem ;
+    padding-bottom: 5rem ;
+    background: #2c3e50 ;
+    color: #fff ;
+}
+.rounded-circle {
+    border-radius: 28% !important;
+}
+.Copyright{
+    background: #1A252F ;
+}
+
+
+.scroll-to-top{
+  z-index: 1000 ;
+  right: 1rem ;
+  bottom: 1rem ;
+  display: none;
+}
+
+.scroll-to-top a {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: rgba(33,37,41,.5);
+    line-height: 3.1rem;
+}
